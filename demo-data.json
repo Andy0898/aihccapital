@@ -1,0 +1,74 @@
+{
+  "users": [
+    {
+      "username": "admin",
+      "password": "admin123",
+      "user": {
+        "id": "admin-001",
+        "username": "admin",
+        "email": "admin@aihccapital.com",
+        "role": "admin",
+        "createdAt": "2024-01-01T00:00:00Z",
+        "lastLogin": "2024-01-01T00:00:00Z"
+      }
+    },
+    {
+      "username": "editor",
+      "password": "editor123",
+      "user": {
+        "id": "editor-001",
+        "username": "editor",
+        "email": "editor@aihccapital.com",
+        "role": "editor",
+        "createdAt": "2024-01-01T00:00:00Z",
+        "lastLogin": "2024-01-01T00:00:00Z"
+      }
+    },
+    {
+      "username": "viewer",
+      "password": "viewer123",
+      "user": {
+        "id": "viewer-001",
+        "username": "viewer",
+        "email": "viewer@aihccapital.com",
+        "role": "viewer",
+        "createdAt": "2024-01-01T00:00:00Z",
+        "lastLogin": "2024-01-01T00:00:00Z"
+      }
+    }
+  ],
+  "successCases": [
+    {
+      "id": "case-001",
+      "title": "TechStart Innovation",
+      "description": "Strategic investment in emerging technology startup resulted in 300% growth and successful market expansion.",
+      "overview": "A comprehensive investment strategy that transformed a promising startup into a market leader.",
+      "timeline": "2022-2024",
+      "outcomes": [
+        "300% revenue growth",
+        "Market expansion to 5 countries",
+        "Successful Series B funding",
+        "Partnership with Fortune 500 companies"
+      ],
+      "category": "Technology",
+      "investmentAmount": "$5M",
+      "roi": "300%"
+    },
+    {
+      "id": "case-002",
+      "title": "GreenEnergy Solutions",
+      "description": "Investment in renewable energy sector leading to sustainable growth and environmental impact.",
+      "overview": "Supporting clean energy transition through strategic investment and operational expertise.",
+      "timeline": "2021-2023",
+      "outcomes": [
+        "250% return on investment",
+        "Carbon footprint reduction of 40%",
+        "Market leadership in solar technology",
+        "Successful IPO preparation"
+      ],
+      "category": "Energy",
+      "investmentAmount": "$10M",
+      "roi": "250%"
+    }
+  ]
+}
